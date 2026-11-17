@@ -2,7 +2,9 @@
 
 An interactive Excel dashboard built on order-level sales data, using PivotTables, PivotCharts, slicers and a date timeline.
 
-> **Attribution:** This project follows the *Raw Sales Data → Interactive Dashboard* tutorial by **Marg Analytics**. The workbook structure and the synthetic dataset come from that tutorial. <!-- EDIT: add the tutorial link, and describe what you changed or added yourself. -->
+## Business context
+
+The data represents a multi-channel electronics retailer selling computers, monitors, networking gear, storage, accessories and office supplies. Orders come through four channels (Online, Retail Store, Corporate Sales, Marketplace) across five regions (North, Central, East, South, West), and each order is credited to a salesperson and tagged as a new or returning customer.
 
 ## Business question
 
@@ -41,6 +43,7 @@ A sales manager wants to review performance across revenue, orders, units sold, 
 - **Channel:** Online is largest (about $792K); Marketplace is smallest (about $310K)
 - **Customers:** Returning customers generate about 69% of revenue
 - **Trend:** Monthly revenue is volatile, from about $151K (Jul) to about $274K (Nov)
+
 
 ## Tools
 
